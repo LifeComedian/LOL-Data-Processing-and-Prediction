@@ -27,7 +27,7 @@ Trains a fusion model combining tabular and CNN-encoded image data, with checkpo
 train_tabular.py
 Implements a lightweight MLP using only tabular features, serving as a baseline and ablation comparison.
 
-train_advance.py
+train_seq.py
 Improve the CNN model with the temporal transformer.
 
 4. Evaluation
@@ -35,5 +35,5 @@ Improve the CNN model with the temporal transformer.
 eval_interval_CNN.py
 Evaluates trained models across different time intervals in both tabular and fusion modes using CNN, reporting accuracy and AUC for performance comparison.
 
-eval_interval_advance.py
+eval_interval_seq.py
 Evaluates trained models across different time intervals using the advanced temporal model.
