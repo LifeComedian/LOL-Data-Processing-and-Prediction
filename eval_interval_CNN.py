@@ -8,8 +8,8 @@ import torch
 from torch.utils.data import DataLoader, Subset
 from sklearn.metrics import accuracy_score, roc_auc_score
 
-from train_02 import TabularMinuteDataset, TabularClassifier
-from train_01 import LolMinuteDataset, FusionClassifier, collate_batch as fusion_collate
+from train_tabular import TabularMinuteDataset, TabularClassifier
+from train_CNN import LolMinuteDataset, FusionClassifier, collate_batch as fusion_collate
 
 
 def load_checkpoint(path: Path, model: torch.nn.Module, device: torch.device) -> torch.nn.Module:
@@ -219,3 +219,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
