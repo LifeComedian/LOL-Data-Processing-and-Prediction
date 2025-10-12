@@ -2,7 +2,7 @@
 
 dataset link: https://www.kaggle.com/datasets/weitianxue/lol-matches-timeline-dataset
 
-**Main programs**
+**Significant programs**
 1. Data Acquisition
 
 get_players.py
